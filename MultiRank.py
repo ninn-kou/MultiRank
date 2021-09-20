@@ -68,6 +68,9 @@ def multirank(A, gamma, s, a, alpha=0.85):
         D = np.ones(N) / D
         D = spdiags(D, 0, N, N)
 
+        # No need to recalculate vector v again because even G is changing in every iteration,
+        # the value of v is steady because it related to a boolean value of G.
+
         l = np.sum(G, axis=0) > 0;
         delta = alpha * l.T
 
