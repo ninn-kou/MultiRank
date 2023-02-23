@@ -1,7 +1,6 @@
 # MultiRank
 
 An unofficial Python implementation of the codes detailed in the paper titled "Centralities of Nodes and Influences of Layers in Large Multiplex Networks."
-Unofficial Python implementation for the codes of the paper "Centralities of Nodes and Influences of Layers in Large Multiplex Networks".
 
 - Original repository written in Matlab: <https://github.com/ginestrab/MultiRank>
 - The paper on arXiv: <https://arxiv.org/abs/1703.05833>
